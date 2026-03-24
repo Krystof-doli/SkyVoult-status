@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAV App - Status</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; background: #f4f4f4; }
+        .card { background: white; padding: 30px; border-radius: 10px; display: inline-block; shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .btn { display: inline-block; padding: 15px 25px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+        .status-off { color: #dc3545; font-weight: bold; }
+        table { margin: 20px auto; border-collapse: collapse; }
+        td, th { padding: 10px; border-bottom: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🚁 UAV App - Bakalářská práce</h1>
+        <p>Aplikace běží na lokálním serveru přes ngrok.</p>
+        
+        <h3>Provozní doba (kdy je aplikace aktivní):</h3>
+        <table>
+            <tr><td>Pondělí - Pátek</td><td>14:00 - 18:00</td></tr>
+            <tr><td>Víkendy</td><td>Dle domluvy</td></tr>
+        </table>
+
+        <p>Pokud je právě provozní doba, klikněte zde:</p>
+        <a href="https://unfurnitured-johnette-unspiring.ngrok-free.dev/" class="btn">Vstoupit do aplikace</a>
+        
+        <p style="margin-top:20px; font-size: 0.9em; color: #666;">
+            Mimo tyto časy může být odkaz nefunkční.
+        </p>
+    </div>
+</body>
+</html>
